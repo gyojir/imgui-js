@@ -4,9 +4,12 @@
     "module": "umd",
     "strict": true,
     "inlineSourceMap": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "allowJs": true,
+    "outDir": "./build/"
   },
   "files": [
+    "bind-imgui.js",
     "imgui.ts",
     "imgui_demo.ts",
     "imgui_memory_editor.ts"

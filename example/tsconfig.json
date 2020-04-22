@@ -10,7 +10,8 @@
       "imgui-js": [ ".." ],
       "imgui-js/*": [ "../*" ]
     },
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "outDir": "../build/"
   },
   "files": [
     "main.ts"
