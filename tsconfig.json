@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
     "target": "ES2016",
-    "module": "system",
+    "module": "umd",
     "strict": true,
-    "inlineSourceMap": true
+    "inlineSourceMap": true,
+    "esModuleInterop": true
   },
   "files": [
     "imgui.ts",

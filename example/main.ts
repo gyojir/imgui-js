@@ -1,12 +1,12 @@
-import * as ImGui from "imgui-js";
+import * as ImGui from "../imgui";
 import * as ImGui_Impl from "./imgui_impl";
 
-import { ImVec2 } from "imgui-js";
-import { ImVec4 } from "imgui-js";
-import { ImGuiIO } from "imgui-js";
-import { ShowDemoWindow } from "imgui-js/imgui_demo";
+import { ImVec2 } from "../imgui";
+import { ImVec4 } from "../imgui";
+import { ImGuiIO } from "../imgui";
+import { ShowDemoWindow } from "../imgui_demo";
 
-import { MemoryEditor } from "imgui-js/imgui_memory_editor";
+import { MemoryEditor } from "../imgui_memory_editor";
 
 let font: ImGui.ImFont | null = null;
 
