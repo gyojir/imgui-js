@@ -72,13 +72,13 @@ async function _init(): Promise<void> {
     // - Read 'misc/fonts/README.txt' for more instructions and details.
     // - Remember that in C/C++ if you want to include a backslash \ in a string literal you need to write a double backslash \\ !
     io.Fonts.AddFontDefault();
-    font = await AddFontFromFileTTF("../imgui/misc/fonts/Roboto-Medium.ttf", 16.0);
+    // font = await AddFontFromFileTTF("../imgui/misc/fonts/Roboto-Medium.ttf", 16.0);
     // font = await AddFontFromFileTTF("../imgui/misc/fonts/Cousine-Regular.ttf", 15.0);
     // font = await AddFontFromFileTTF("../imgui/misc/fonts/DroidSans.ttf", 16.0);
     // font = await AddFontFromFileTTF("../imgui/misc/fonts/ProggyTiny.ttf", 10.0);
     // font = await AddFontFromFileTTF("c:\\Windows\\Fonts\\ArialUni.ttf", 18.0, null, io.Fonts.GetGlyphRangesJapanese());
     // font = await AddFontFromFileTTF("https://raw.githubusercontent.com/googlei18n/noto-cjk/master/NotoSansJP-Regular.otf", 18.0, null, io.Fonts.GetGlyphRangesJapanese());
-    ImGui.IM_ASSERT(font !== null);
+    // ImGui.IM_ASSERT(font !== null);
 
     if (typeof(window) !== "undefined") {
         const output: HTMLElement = document.getElementById("output") || document.body;

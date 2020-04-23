@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2016",
-    "module": "umd",
+    "module": "ES2015",
     "moduleResolution": "node",
     "inlineSourceMap": true,
     "strict": true,
@@ -11,7 +11,7 @@
       "imgui-js/*": [ "../*" ]
     },
     "esModuleInterop": true,
-    "outDir": "../build/"
+    "declaration": true
   },
   "files": [
     "main.ts"

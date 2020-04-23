@@ -1,15 +1,14 @@
 {
   "compilerOptions": {
     "target": "ES2016",
-    "module": "umd",
+    "module": "ES2015",
     "strict": true,
     "inlineSourceMap": true,
     "esModuleInterop": true,
     "allowJs": true,
-    "outDir": "./build/"
+    "declaration": true
   },
   "files": [
-    "bind-imgui.js",
     "imgui.ts",
     "imgui_demo.ts",
     "imgui_memory_editor.ts"
