@@ -92,6 +92,12 @@ async function _init(): Promise<void> {
         canvas.style.bottom = "0px";
         canvas.style.width = "100%";
         canvas.style.height = "100%";
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        window.addEventListener('resize', ()=>{
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }, false);
         ImGui_Impl.Init(canvas);
     } else {
         ImGui_Impl.Init(null);
