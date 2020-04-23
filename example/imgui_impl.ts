@@ -46,11 +46,11 @@ function document_on_paste(event: ClipboardEvent): void {
 }
 
 function window_on_resize(): void {
-    if (canvas !== null) {
-        const devicePixelRatio: number = window.devicePixelRatio || 1;
-        canvas.width = Math.floor(canvas.scrollWidth * devicePixelRatio);
-        canvas.height = Math.floor(canvas.scrollHeight * devicePixelRatio);
-    }
+    // if (canvas !== null) {
+    //     const devicePixelRatio: number = window.devicePixelRatio || 1;
+    //     canvas.width = Math.floor(canvas.scrollWidth * devicePixelRatio);
+    //     canvas.height = Math.floor(canvas.scrollHeight * devicePixelRatio);
+    // }
 }
 
 function window_on_gamepadconnected(event: any /* GamepadEvent */): void {

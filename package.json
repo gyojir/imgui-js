@@ -19,7 +19,7 @@
     "start-example": "npm run start-example-html",
     "start-example-html": "echo http://localhost:8080/build/example/index.html && http-server -c-1 -o",
     "start-example-node": "node example/index.js",
-    "build-example-parcel": "rimraf build && parcel build ./example/index.html --public-url ./ --out-dir build/example",
+    "build-example-parcel": "npm run build-example && rimraf build && parcel build ./example/index.html --public-url ./ --out-dir build/example",
     "watch-example-parcel": "parcel ./example/index.html --out-dir build/example --port 8080",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
